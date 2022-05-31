@@ -39,8 +39,6 @@ async function handleSubmit(e) {
     console.log(data)
 }
   
-
-
     return (
         <main>
             <h1>Login</h1>

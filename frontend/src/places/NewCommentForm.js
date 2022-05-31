@@ -11,7 +11,7 @@ function NewCommentForm({ place, onSubmit }) {
         content: '',
         stars: 3,
         rant: false,
-       authorId: ''//wajih
+       authorId: ''
     })
 
    useEffect(() => {
@@ -31,7 +31,7 @@ function NewCommentForm({ place, onSubmit }) {
             content: '',
             stars: 3,
             rant: false,
-         authorId: authors[0]?.userId// wajih
+         authorId: authors[0]?.userId
         })
     }
     
